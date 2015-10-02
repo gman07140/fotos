@@ -1,0 +1,134 @@
+html {
+background-color: #191919;
+}
+
+html, body {
+  height: 100%;
+}
+
+img.prevpics{
+  width:244px;
+}
+
+img.socialbar{
+  width:40px;
+}
+
+.header
+{
+  text-align: center;
+  padding: 25px 0 0px;
+}
+
+.headertitle
+{
+  text-align: center;
+  padding: 0px 0 0px;
+  color: white;
+}
+
+#wrapper {
+  position: relative;
+  min-height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#contents {
+  padding-bottom: 73px;
+  min-height: 340px;
+}
+
+#prevpics {
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -75px;
+  margin-left: -490px;
+}
+#prevpics li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  width: 244px;
+  margin: 0 25px;
+}
+
+#prevpics li a {
+  -webkit-filter: brightness(75%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#prevpics li a:hover {
+  -webkit-filter: brightness(100%);
+}
+
+#socialbar {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  margin-top: -95px;
+  margin-left: -90px;
+}
+
+#socialbar li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+}
+
+a.small{
+	padding: 10px 26px 10px 26px;
+  display:inline-block;
+    float: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    -webkit-transition: all .2s ease;
+     -moz-transition: all .2s ease;
+       -o-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+a.smallast{
+	padding: 10px 26px 10px 26px; /* order: top, right, bottom, left*/
+  display:inline-block;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    float: center;
+    text-decoration: none;
+    color: white;
+    border-right: 1px solid white;
+
+    -webkit-transition: all .2s ease;
+     -moz-transition: all .2s ease;
+       -o-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+a.small:hover, a.smallast:hover {
+color: yellow;
+border-left: 1px solid white;
+    text-decoration: underline;
+    -webkit-transform: scale(1.2);
+}
+
+a.large{
+	padding: 10px 26px 15px 26px;
+    float: center;
+}
+
+#links {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}

@@ -1,0 +1,36 @@
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+#content{
+    width: 1000px;
+    text-align: center;
+    margin-top: auto;
+    margin-left: -35px;
+}
+
+#content ul{
+    list-style-type: none;
+
+    }
+#content li{
+    float: left;
+    display: block;
+    margin-left: 5px;
+}
+
+#content a:hover{
+    background-color: transparent;
+}
+
+#content img{
+      -webkit-filter: brightness(75%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+#content img:hover{
+    -webkit-filter: brightness(100%);
+}
